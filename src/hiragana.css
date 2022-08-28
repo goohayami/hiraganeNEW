@@ -1,0 +1,112 @@
+/* ここからnav */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "M PLUS 1p", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 2rem;
+  background-color: rgb(95, 91, 91);
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* ここまでnav */
+
+.main-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7,
+.col8,
+.col9,
+.col10,
+.col11,
+.col12,
+.col13 {
+  display: flex;
+  max-width: 1000px;
+  height: auto;
+  font-size: 2.8rem;
+  margin-bottom: 2px;
+  font-family: "BIZ UDMincho", serif;
+  user-select: none;
+}
+.words {
+  margin-left: 2px;
+  border-radius: 5px;
+  background-color: rgb(51, 210, 210);
+  border: 1px black solid;
+}
+.words2 {
+  margin-left: 2px;
+  border-radius: 5px;
+  background-color: rgb(83, 210, 51);
+  border: 1px black solid;
+  font-size: 2rem;
+}
+.words3 {
+  margin-left: 2px;
+  border-radius: 5px;
+  background-color: rgb(59, 51, 210);
+  border: 1px black solid;
+}
+.words4 {
+  margin-left: 2px;
+  border-radius: 5px;
+  background-color: rgb(200, 51, 210);
+  border: 1px black solid;
+}
+.bun-container {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background-color: beige;
+  font-size: 1.5rem;
+}
+.bun1,
+.bun2,
+.bun3,
+.bun4,
+.bun5 {
+  margin-top: 8px;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  font-family: "BIZ UDMincho", serif;
+}
+
+.pic {
+  background-color: rgba(160, 152, 152, 0.322);
+  color: rgb(3, 3, 3);
+}
+
+.pic2 {
+  font-size: 1rem;
+  background-color: rgba(160, 152, 152, 0.322);
+  color: rgb(3, 3, 3);
+}
+
+.btn {
+  user-select: none;
+}

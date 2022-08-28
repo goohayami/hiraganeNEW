@@ -1,0 +1,141 @@
+/* ここからnav */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "M PLUS 1p", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 2rem;
+  background-color: rgb(95, 91, 91);
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* ここまでnav */
+
+.left,
+.right {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 140px;
+  background-color: tomato;
+  margin-left: 2px;
+  border-radius: 4px;
+}
+
+.main-container1,
+.main-container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.anser {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 140px;
+  background-color: tomato;
+  color: tomato;
+  margin-left: 2px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.plus,
+.equal {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 120px;
+  background-color: white;
+  margin-left: 2px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.numbers,
+.numbers2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.num0,
+.num1,
+.num2,
+.num3,
+.num4,
+.num5,
+.num6,
+.num7,
+.num8,
+.num9,
+.num10,
+.num11,
+.num12,
+.num13,
+.num14,
+.num15,
+.num16,
+.num17,
+.num18,
+.num19 {
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+  margin-left: 2px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 5px;
+  user-select: none;
+  background-color: rgb(205, 50, 164);
+}
+
+.count {
+  margin-top: 2rem;
+  font-size: 50px;
+  text-align: center;
+}
+
+button {
+  width: 7rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.clearMessage {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+  color: tomato;
+}
+
+.start {
+  visibility: hidden;
+}
+
+.end {
+  visibility: visible;
+}
+
+.ending {
+  font-size: 3rem;
+}
+.hidden {
+  visibility: hidden;
+}
