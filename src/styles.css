@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "M PLUS 1p", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 2rem;
+  background-color: rgb(95, 91, 91);
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+  color: white;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  /* width: 100vw;
+  height: 100vh; */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section.active {
+  display: flex;
+}
+
+.main-container1,
+.main-container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.left,
+.right {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 140px;
+  background-color: tomato;
+  margin-left: 2px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.anser {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 140px;
+  background-color: tomato;
+  color: tomato;
+  margin-left: 2px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.plus,
+.equal {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 120px;
+  background-color: white;
+  margin-left: 2px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.numbers,
+.numbers2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.num0,
+.num1,
+.num2,
+.num3,
+.num4,
+.num5,
+.num6,
+.num7,
+.num8,
+.num9,
+.num10,
+.num11,
+.num12,
+.num13,
+.num14,
+.num15,
+.num16,
+.num17,
+.num18,
+.num19 {
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+  margin-left: 2px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+  background-color: yellowgreen;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.count {
+  margin-top: 2rem;
+  font-size: 50px;
+  text-align: center;
+}
+
+.end {
+  z-index: 100;
+  background-color: brown;
+  width: 500px;
+  height: 500px;
+  color: white;
+}
+.hidden {
+  visibility: hidden;
+}
