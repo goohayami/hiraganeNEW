@@ -4,6 +4,7 @@ body {
   padding: 0;
   font-family: "M PLUS 1p", sans-serif;
   font-family: "M PLUS Rounded 1c", sans-serif;
+  background-color: rgb(226, 229, 221);
 }
 .nav {
   margin: 0;
@@ -17,6 +18,7 @@ body {
   justify-content: center;
   gap: 50px;
   color: white;
+  font-weight: bold;
 }
 a {
   text-decoration: none;
@@ -44,69 +46,89 @@ a {
 .col10,
 .col11,
 .col12,
-.col13 {
+.col13,
+.col14,
+.col15,
+.col16,
+.col17,
+.col18 {
   display: flex;
   max-width: 1000px;
   height: auto;
-  font-size: 2.8rem;
-  margin-bottom: 2px;
+  font-size: 3rem;
+  margin-bottom: 4px;
   font-family: "BIZ UDMincho", serif;
   user-select: none;
 }
 .words {
-  margin-left: 2px;
+  margin-left: 4px;
   border-radius: 5px;
   background-color: rgb(51, 210, 210);
   border: 1px black solid;
+  user-select: none;
 }
 .words2 {
-  margin-left: 2px;
+  margin-left: 4px;
   border-radius: 5px;
   background-color: rgb(83, 210, 51);
   border: 1px black solid;
   font-size: 2rem;
+  user-select: none;
 }
 .words3 {
-  margin-left: 2px;
+  margin-left: 4px;
   border-radius: 5px;
-  background-color: rgb(59, 51, 210);
+  background-color: rgb(234, 179, 128);
   border: 1px black solid;
+  user-select: none;
 }
 .words4 {
-  margin-left: 2px;
+  margin-left: 4px;
   border-radius: 5px;
-  background-color: rgb(200, 51, 210);
+  background-color: rgb(230, 167, 234);
   border: 1px black solid;
+  user-select: none;
 }
+
 .bun-container {
   text-align: center;
   justify-content: center;
-  display: flex;
+  /* display: flex; */
   background-color: beige;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 .bun1,
 .bun2,
 .bun3,
 .bun4,
 .bun5 {
+  display: flex;
+  /* justify-content: center; */
   margin-top: 8px;
-  margin-left: 1rem;
+  margin-left: 3rem;
+  font-size: 3rem;
   margin-right: 0.5rem;
   font-family: "BIZ UDMincho", serif;
 }
 
 .pic {
-  background-color: rgba(160, 152, 152, 0.322);
   color: rgb(3, 3, 3);
+  margin-right: 8px;
 }
 
 .pic2 {
-  font-size: 1rem;
-  background-color: rgba(160, 152, 152, 0.322);
+  font-size: 2rem;
+  line-height: 2;
+  /* background-color: rgba(160, 152, 152, 0.322); */
   color: rgb(3, 3, 3);
 }
-
-.btn {
+.btn1,
+.btn2 {
   user-select: none;
+  margin-left: 4px;
+}
+.hidden {
+  color: rgba(160, 152, 152, 0.322);
+  user-select: none;
+  background-color: rgba(160, 152, 152, 0.322);
 }

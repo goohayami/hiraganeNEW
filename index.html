@@ -11,48 +11,24 @@
       rel="stylesheet"
     />
     <title>計算アプリひながた</title>
-    <link rel="stylesheet" href="./src/styles.css" />
-    <script src="./modules/tasizan.js" type="module" defer></script>
-    <script src="./modules/hikizan.js" type="module" defer></script>
-    <script src="./index.js" type="module" defer></script>
+    <link rel="stylesheet" href="./src/index.css" />
   </head>
 
   <body>
     <!-- nav section -->
     <nav id="nav">
       <ul class="nav">
-        <li>たしざん</li>
-        <li>ひきざん</li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="tasizan.html">たしざん</a></li>
+        <li><a href="hikizan.html">ひきざん</a></li>
         <li>かけざん</li>
-        <li>ひらがな</li>
+        <li><a href="hiragana.html">ひらがな</a></li>
         <li>かたかな</li>
       </ul>
     </nav>
     <!-- root -->
     <section class="test active">
       <h1>ここはアクティブ</h1>
-    </section>
-
-    <!-- たしざん -->
-    <section id="tasizan" class="tasizan">
-      <div class="count" id="count"></div>
-      <div class="question-container">
-        <div class="main-container1" id="main-container1"></div>
-      </div>
-      <div class="numbers" id="numbers"></div>
-      <div class="numbers2" id="numbers2"></div>
-      <div class="start" hidden>おしまい</div>
-    </section>
-
-    <!-- ひきざん -->
-    <section id="hikizan" class="hikizan active">
-      <div class="count-hikizan" id="count-hikizan"></div>
-      <div class="question-containerHikizan">
-        <div class="main-containerHikizan" id="main-containerHikizan"></div>
-      </div>
-      <div class="numbers-hikizan" id="numbers-hikizan"></div>
-      <div class="numbers-hikizan2" id="numbers-hikizan2"></div>
-      <div class="start-hikizan" hidden>おしまい</div>
     </section>
   </body>
 </html>

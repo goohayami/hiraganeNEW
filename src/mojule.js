@@ -59,10 +59,17 @@ export const col5s = [
   "こ",
   "お",
 ];
-export const col6s = ["や", "ゆ", "つ", "い"];
-export const col7s = ["「 ", " 」", "（", "）"];
-export const col8s = ["|", "？", "！", "～"];
-
+// 拗音
+export const col6s = ["や", "ゆ"];
+export const col14s = ["つ", "い"];
+export const col15s = ["ゆ", "え"];
+// 句読点など
+export const col7s = ["「", "」", "━"];
+export const col8s = ["。", "（", "）"];
+export const col16s = ["１", "２", "３"];
+export const col17s = ["４", "５", "６"];
+export const col18s = ["７", "８", "９"];
+// 濁音
 export const col9s = ["ぱ", "ば", "だ", "ざ", "が"];
 export const col10s = ["ぴ", "び", "ぢ", "じ", "ぎ"];
 export const col11s = ["ぷ", "ぶ", "づ", "ず", "ぐ"];
